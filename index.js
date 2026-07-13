@@ -1,5 +1,6 @@
 import TelegramBot from "node-telegram-bot-api";
 import type { InlineKeyboardMarkup } from "node-telegram-bot-api";
+
 import fs from "node:fs";
 import path from "node:path";
 import { logger } from "../lib/logger";
