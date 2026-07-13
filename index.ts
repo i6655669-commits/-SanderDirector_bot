@@ -1,7 +1,6 @@
 import TelegramBot from "node-telegram-bot-api";
 import fs from "node:fs";
 import path from "node:path";
-import { logger } from "../lib/logger";
 import {
   playerExists,
   getOrCreatePlayer,
@@ -12,7 +11,7 @@ import {
   bankWithdraw,
   getTopPlayers,
   resetBalance,
-} from "./lib/players";
+} from "./players";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // КОНФИГУРАЦИЯ
