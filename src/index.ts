@@ -1,4 +1,4 @@
-import TelegramBot from "node-telegram-bot-api";
+import TelegramBot = require('node-telegram-bot-api');
 import fs from "node:fs";
 import path from "node:path";
 import {
