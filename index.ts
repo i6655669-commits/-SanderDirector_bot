@@ -19,7 +19,7 @@ import {
 // Установите переменную окружения ADMIN_ID равной вашему Telegram user ID.
 // ─────────────────────────────────────────────────────────────────────────────
 
-function getAdminId(): number {
+function getAdminId() number {
   return Number(process.env["ADMIN_ID"] ?? "0");
 }
 
