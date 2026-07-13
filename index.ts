@@ -11,7 +11,7 @@ import {
   bankWithdraw,
   getTopPlayers,
   resetBalance,
-} from "./players";
+} from "../players";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // КОНФИГУРАЦИЯ
